@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+margin: 0;
+}
+#topcontainer{
+ 
+    min-width: 350px;
+    max-width: 1200px;
+    min-height: 300px;
+    max-height: 600px;
+    background:  #dbf3de ;
+    background-image: url(../css/images/MaskGroup.png);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    
+}
+img{
+
+    width: 30%;
+    height: 20%;
+    margin-top: 0;
+    margin-left: -20%;
+}
+
+header{
+
+    width: 30%;
+    height: 30%;
+    background-color: none;
+    text-align: center;
+
+}
+
+.information{
+    display: inline-block;
+    background-color: none;
+    text-align: center;
+    width: 40%;
+    height: 30%;
+    align-self: center;
+    margin-left: -10%;
+}
+
+nav{
+
+     background-color: none;
+     order: 3;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin-top: 1%;
+     text-decoration: none;
+     
+}
+
+.li{
+list-style-type: none;
+width: 50%;
+height: 35%%;
+display: inline;
+}
+   
+.sign {
+    background-color:blue;
+    border-radius: 0.3em;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    padding: 7px 7px;
+    text-decoration: none;
+    color: white;
+}
+
+#container{
+ 
+    min-width: 600px;
+    max-width: 1200px;
+    min-height: 500px;
+    max-height: 800px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+article{
+
+    display: inline-block;
+    background-color: #440cbf;
+    width: 25%;
+    height: 50;
+    margin-top: 2%;
+    border-radius: 1em;
+    border: 1px solid black;
+    list-style-type: none;
+    list-style-image: url(../css/images/checkmark-onpurple.png);
+    text-align: left;
+    font-size: larger;
+    background-color: white;
+    
+    
+}
+
+.starter {
+    background-color: #440cbf;
+    color:white;
+    text-align: center;
+    border-radius: 2em;
+    margin-right: 15%;
+    
+}
+
+.Pro{
+    background-color: #440cbf;
+    color:white;
+    text-align: center;
+    border-radius: 2em;
+    margin-right: 15%;
+}
+.central{
+
+    display: inline-block;
+    background-color: #440cbf;
+    width: 25%;
+    height: 50;
+    margin-top: 2%;
+    border-radius: 1em;
+    border: 1px solid black;
+    list-style-type: none;
+    list-style-image: url(../css/images/whitecheckmark.png);
+    text-align: left;
+    font-size: larger;
+    color:white;
+    
+     
+}
+.advanced {
+    background-color: white;
+    color:#440cbf;
+    text-align: center;
+    border-radius: 2em;
+    margin-right: 15%;
+}
+h1{
+    font-weight: bolder;
+    font-size: 300%;
+    display: inline-block;
+}
+h5{
+    font-weight: bolder;
+    font-size: medium; 
+    display: inline-block;
+    
+}
+}
+h6{
+    color:grey;
+    text-shadow: 50px;
+    
